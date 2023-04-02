@@ -26,15 +26,14 @@ public class RandomGame {
                 else { rank =un;
                 }
                 System.out.println("Вы угадали,количество попыток: "+ i +" "+"Ваш ранг - "+ rank);}
-                else if(myNumber<random_number){
+            else if(myNumber<random_number){
                 System.out.println("Ваше число меньше");
                 i++;
             }
-                else{
+            else{
                 System.out.println("Ваше число болльше");
                 i++;
             }
         }while(myNumber!=random_number);
-        System.out.println("HUI");
     }
 }
