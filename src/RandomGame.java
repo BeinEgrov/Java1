@@ -35,5 +35,6 @@ public class RandomGame {
                 i++;
             }
         }while(myNumber!=random_number);
+        System.out.println("HUI");
     }
 }
